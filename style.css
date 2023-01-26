@@ -3,25 +3,39 @@
   padding: 0;
 }
 
+h1 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 16px;
+}
+
 body {
+  font-family: Raleway;
+
   background-color: #f0f2f6;
+
+  display: flex;
   justify-content: center;
 }
 
 nav {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .container {
-  width: 1400px;
+  width: 140vh;
+}
+
+.container {
   display: flex;
   justify-content: space-between;
 }
 
 ul {
-  font-family: Raleway;
-
   display: flex;
   list-style: none;
 }
@@ -46,4 +60,48 @@ a {
 
 .container ul a {
   color: #0065fc;
+}
+
+form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.title {
+  margin-top: 10vh;
+}
+
+.title h1,
+.title p {
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 332px;
+}
+
+form button {
+  position: relative;
+  right: 60px;
+  background-color: #0065fc;
+  color: white;
+  padding: 0 10px;
+  border-radius: 0 15px 15px 0;
+}
+
+form button,
+form input,
+.glass {
+  border: 1px solid grey;
+}
+
+form button,
+form input {
+  height: 49px;
+}
+
+.glass {
+  width: 49px;
+  height: 47px;
+  border-radius: 15px 0 0 15px;
 }
