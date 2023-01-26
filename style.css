@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f2f6;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  /* padding: 55px 80px 55px 44px; */
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  font-family: Raleway;
+
+  display: flex;
+  list-style: none;
+}
+
+nav > ul li {
+  border: 3px solid f0f2f6;
+  padding: 0 20px;
+}
+
+#logoSmall,
+nav > ul li {
+  padding-top: 5vh;
+}
+
+nav > ul li:hover {
+  border-top: 3px solid #0065fc;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav > ul a {
+  color: #0065fc;
+}
