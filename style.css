@@ -24,10 +24,8 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
 
-.container {
-  width: 140vh;
+  width: 1340px;
 }
 
 .container {
@@ -64,7 +62,7 @@ a {
 
 form {
   display: flex;
-  margin-top: 10px;
+  margin-top: 2vh;
 }
 
 .title {
@@ -104,4 +102,27 @@ form input {
   width: 49px;
   height: 47px;
   border-radius: 15px 0 0 15px;
+}
+
+.filterSlide {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  margin-top: 3vh;
+}
+
+.filterSlide button {
+  margin: 0 10px;
+  padding: 10px;
+
+  font-size: 17px;
+  font-weight: bold;
+
+  border-radius: 25px;
+  border: 2px solid grey;
+}
+
+.filterSlide button:hover {
+  background-color: #deebff;
 }
