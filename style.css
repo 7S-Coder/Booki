@@ -24,7 +24,10 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
 
+nav,
+article {
   width: 1340px;
 }
 
@@ -138,4 +141,31 @@ form input {
 
 .filterSlide button:hover {
   background-color: #deebff;
+}
+
+article {
+  margin-top: 50px;
+}
+
+.circle {
+  width: 24px;
+  height: 24px;
+
+  margin-right: 5px;
+
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: blue;
 }
