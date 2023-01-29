@@ -93,6 +93,19 @@ form input,
   border: 1px solid grey;
 }
 
+.glass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: none;
+}
+
+.filterSlide i {
+  color: blue;
+
+  margin-right: 7px;
+}
+
 form button,
 form input {
   height: 49px;
