@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+  header,
+  nav,
+  .boxContainer {
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container li {
+    width: 50%;
+    text-align: center;
+
+    font-size: 1em;
+  }
+
+  .container ul li {
+    padding: 30px 20px;
+  }
+
+  .container ul li:hover {
+    border-top: 3px solid #f0f2f6;
+    border-bottom: 3px solid #0065fc;
+  }
+
+  .title,
+  form,
+  .filterSlide {
+    margin: 0 5%;
+  }
+
+  .filterSlide button,
+  .filterSlide h1 {
+    margin-top: 10px;
+  }
+
+  .filterSlide h1 {
+    width: 100%;
+  }
+
+  .boxContainer {
+    margin: 0;
+
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .boxR {
+    border-radius: 0;
+  }
+}
