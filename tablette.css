@@ -1,0 +1,50 @@
+@media screen and (max-width: 1024px) {
+  nav,
+  .boxContainer,
+  .info,
+  .activityBox,
+  .activityTitle,
+  footer {
+    width: 90%;
+  }
+
+  .boxL {
+    width: 100%;
+  }
+
+  .cardR {
+    width: 32%;
+  }
+
+  .infoCard .starBox {
+    margin-top: 21px;
+  }
+
+  .up {
+    position: relative;
+    bottom: 17px;
+  }
+
+  h1 i {
+    margin-left: 612px;
+  }
+
+  .titleBoxR h1 {
+    display: block;
+    font-size: 22px;
+
+    width: 89%;
+  }
+
+  .activity {
+    width: 200px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .boxL .card {
+    width: 267px;
+    height: 182px;
+  }
+}
