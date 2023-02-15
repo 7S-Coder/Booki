@@ -50,4 +50,8 @@
   .boxR {
     border-radius: 0;
   }
+
+  .titleBoxR h1 {
+    width: 87%;
+  }
 }
