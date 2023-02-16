@@ -31,7 +31,7 @@ p {
 body {
   font-family: Raleway;
 
-  background-color: #f0f2f6;
+  background-color: white;
 }
 
 nav,
@@ -69,7 +69,7 @@ ul {
 }
 
 .container ul li {
-  border: 3px solid #f0f2f6;
+  border: 3px solid white;
   padding: 0 20px;
 }
 
@@ -241,7 +241,8 @@ form input {
 }
 
 .card,
-.cardR {
+.cardR,
+.activity {
   border-radius: 20px;
   margin-top: 20px;
 

@@ -16,7 +16,7 @@
 
   .container ul li:hover {
     border-bottom: 3px solid #0065fc;
-    border-top: 3px solid #f0f2f6;
+    border-top: 3px solid white;
   }
 
   .title {
@@ -26,9 +26,6 @@
   .boxContainer {
     display: flex;
     flex-direction: column-reverse;
-
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .searchText {
@@ -50,7 +47,6 @@
 
   span {
     display: inline-block;
-    width: 100%;
   }
 
   .boxR {
@@ -80,6 +76,36 @@
   }
 
   .cardR {
+    width: 100%;
+  }
+
+  .activityBox {
+    flex-direction: column;
+  }
+
+  .activity {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .activity,
+  .cardR,
+  .boxL .card,
+  span {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav,
+  .boxContainer,
+  .info,
+  .activityBox,
+  .activityTitle,
+  footer {
     width: 100%;
   }
 }
