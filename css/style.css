@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+button i {
+  display: none;
+}
+
 nav span {
   font-weight: bold;
 }
@@ -241,7 +245,7 @@ form input {
   border-radius: 20px;
   margin-top: 20px;
 
-  box-shadow: 1px 1px 1px white;
+  box-shadow: 1px 1px 5px grey;
 }
 
 .card {
@@ -413,6 +417,7 @@ h4 {
 
   .boxL {
     width: 100%;
+    height: 600px;
   }
 
   .boxR {
@@ -425,5 +430,61 @@ h4 {
 
   .titleBoxR h1 {
     width: 92%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav,
+  .boxContainer,
+  .info,
+  .activityBox,
+  .activityTitle,
+  footer {
+    width: 90%;
+  }
+
+  .boxL {
+    width: 100%;
+  }
+
+  .cardR {
+    width: 32%;
+  }
+
+  .infoCard .starBox {
+    margin-top: 21px;
+  }
+
+  .up {
+    position: relative;
+    bottom: 17px;
+  }
+
+  .titleBoxR h1 {
+    display: block;
+    font-size: 22px;
+
+    width: 89%;
+  }
+
+  .activity {
+    width: 200px;
+    height: 450px;
+  }
+
+  .cardR {
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 1008px) {
+  .infoCard .starBox {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .boxL {
+    height: 800px;
   }
 }
