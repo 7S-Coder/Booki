@@ -3,9 +3,19 @@
   padding: 0;
 }
 
+nav span {
+  font-weight: bold;
+}
+
+.titleBoxR h1,
+h1,
+nav span {
+  font-size: 1.5em;
+}
+
 .titleBoxR h1 {
   display: block;
-  font-size: 22px;
+  font-weight: bold;
 
   width: 78%;
 }
@@ -194,7 +204,7 @@ form input {
 
   padding-top: 42px;
 
-  height: 626px;
+  height: auto;
 }
 
 .boxL {
@@ -236,7 +246,7 @@ form input {
 
 .card {
   background-color: #fff;
-  height: 199px;
+  height: auto;
   width: 246px;
 }
 
@@ -267,6 +277,10 @@ h3 {
 
 .starBox .blue {
   color: blue;
+}
+
+.starBox {
+  margin: 5px 0;
 }
 
 .grey {
@@ -301,8 +315,7 @@ h3 {
 
 .infoCard {
   flex-direction: column;
-
-  margin-top: 16px;
+  padding: 2px 0;
 }
 
 .infoCard p {
@@ -310,7 +323,7 @@ h3 {
 }
 
 .infoCard .starBox {
-  margin-top: 41px;
+  margin-top: 50px;
 }
 
 .activityBox {
@@ -344,10 +357,6 @@ h3 {
 
 .activity h3 {
   margin-top: 10px;
-}
-
-.starBox:last-child {
-  margin-bottom: 35px;
 }
 
 .stonk {
