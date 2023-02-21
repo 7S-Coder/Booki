@@ -7,6 +7,10 @@ button i {
   display: none;
 }
 
+header nav p {
+  margin-top: 6px;
+}
+
 nav span {
   font-weight: bold;
 }
@@ -136,6 +140,10 @@ form input,
   margin-right: 7px;
 }
 
+.filterSlide span {
+  margin-right: 20px;
+}
+
 form button,
 form input {
   height: 49px;
@@ -156,7 +164,8 @@ form input {
 }
 
 .filterSlide button {
-  margin: 0 10px;
+  background-color: white;
+  margin: 0 20px;
   padding: 10px;
 
   font-size: 17px;
