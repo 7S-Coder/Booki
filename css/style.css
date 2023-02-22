@@ -3,12 +3,16 @@
   padding: 0;
 }
 
-button i {
-  display: none;
+header nav form i {
+  visibility: hidden;
 }
 
 header nav p {
-  margin-top: 6px;
+  margin-top: 16px;
+}
+
+header form p {
+  margin-top: 13px;
 }
 
 nav span {
@@ -24,8 +28,6 @@ nav span {
 .titleBoxR h1 {
   display: block;
   font-weight: bold;
-
-  width: 78%;
 }
 
 p {
@@ -141,7 +143,7 @@ form input,
 }
 
 .filterSlide span {
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 form button,
@@ -172,7 +174,7 @@ form input {
   font-weight: bold;
 
   border-radius: 25px;
-  border: 2px solid grey;
+  border: 2px solid #d9d9d9;
 }
 
 .filterSlide button:hover {
@@ -183,10 +185,14 @@ form input {
   width: 24px;
   height: 24px;
 
-  margin-right: 5px;
-
   border: 1px solid grey;
   border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: blue;
 }
 
 .info {
@@ -194,12 +200,8 @@ form input {
   align-items: center;
 }
 
-.circle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  color: blue;
+.info p {
+  padding-left: 11px;
 }
 
 .boxContainer {
@@ -211,7 +213,7 @@ form input {
 
 .boxL,
 .boxR {
-  background: #d9d9d9;
+  background: #f2f2f2;
 
   border-radius: 20px;
 
@@ -228,17 +230,19 @@ form input {
   width: 420px;
 }
 
-.boxL h1,
-.viewMore {
-  margin-left: 40px;
+.boxL h1 {
+  padding-left: 22px;
+  width: 50%;
 }
 
 .boxR h1 {
-  margin-left: 37px;
+  padding-left: 11px;
 }
 
 .titleBoxR {
   display: flex;
+  justify-content: space-between;
+  padding-right: 21px;
 }
 
 .cardContainer {
@@ -246,7 +250,7 @@ form input {
   flex-wrap: wrap;
   justify-content: space-between;
 
-  margin: 0 40px 30px;
+  margin: 0 21px 30px;
 }
 
 .card,
@@ -255,23 +259,13 @@ form input {
   border-radius: 20px;
   margin-top: 20px;
 
-  box-shadow: 1px 1px 5px grey;
+  box-shadow: 1px 1px 5px rgb(189, 186, 186);
 }
 
 .card {
   background-color: #fff;
   height: auto;
   width: 246px;
-}
-
-.card img {
-  height: 124px;
-  width: 96%;
-  object-fit: cover;
-
-  border-radius: 20px 20px 0 0;
-
-  margin: 5px;
 }
 
 h3,
@@ -305,6 +299,8 @@ h3 {
   display: block;
   font-size: 21px;
   font-weight: bold;
+
+  padding-left: 21px;
 }
 
 .cardR {
@@ -325,6 +321,18 @@ h3 {
 
   border-radius: 20px 0 0 20px;
   border: 5px solid white;
+}
+
+.card img {
+  height: 124px;
+  width: 93%;
+
+  object-fit: cover;
+
+  border-radius: 20px 20px 0 0;
+  border: 5px solid white;
+
+  margin: 5px;
 }
 
 .infoCard {
@@ -370,7 +378,7 @@ h3 {
 }
 
 .activity h3 {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .stonk {
@@ -392,10 +400,10 @@ footer {
 
 footer ul {
   flex-direction: column;
-  width: 30%;
+  width: 90%;
 
-  margin-top: 45px;
-  margin-left: 70px;
+  margin-top: 15px;
+  padding-left: 70px;
 }
 
 footer ul li:first-child {
@@ -437,17 +445,12 @@ h4 {
 
     padding-bottom: 20px;
   }
-
-  .titleBoxR h1 {
-    width: 92%;
-  }
 }
 
 @media screen and (max-width: 1024px) {
   nav,
   .boxContainer,
   .info,
-  .activityBox,
   .activityTitle,
   footer {
     width: 90%;
@@ -473,17 +476,33 @@ h4 {
   .titleBoxR h1 {
     display: block;
     font-size: 22px;
-
-    width: 89%;
   }
 
   .activity {
-    width: 200px;
-    height: 450px;
+    width: 267px;
+  }
+
+  .activity img {
+    height: 211px;
   }
 
   .cardR {
     padding: 2px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .activity {
+    width: 211px;
+    height: 267px;
+  }
+
+  .activity img {
+    height: 217px;
+  }
+
+  .activity h3 {
+    margin-top: 9px;
   }
 }
 

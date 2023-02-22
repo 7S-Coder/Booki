@@ -3,6 +3,10 @@
     margin: 0 auto;
   }
 
+  .viewMore {
+    display: none;
+  }
+
   .container {
     flex-direction: column;
     margin-bottom: 30px;
@@ -28,6 +32,14 @@
     flex-direction: column-reverse;
   }
 
+  .activityTitle {
+    padding-left: 20px;
+    width: 50%;
+
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .searchText {
     display: none;
   }
@@ -37,12 +49,26 @@
   }
 
   .filterSlide button {
+    width: 160px;
+    height: 50px;
     margin: 10px;
+
+    font-size: 11px;
+
+    justify-content: space-between;
   }
 
   p,
   span {
     margin: 10px 0;
+  }
+
+  header {
+    padding-left: 15px;
+  }
+
+  header nav form i {
+    visibility: visible;
   }
 
   span {
@@ -63,16 +89,16 @@
     height: auto;
   }
 
-  .boxL .card img {
-    width: 98%;
-  }
-
   .boxL .card {
     width: 100%;
   }
 
   .cardContainer {
     flex-direction: column;
+  }
+
+  .card img {
+    width: 97%;
   }
 
   .cardR {
@@ -92,20 +118,50 @@
   }
 
   .activity,
-  .cardR,
-  .boxL .card,
+  .card,
   span {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .cardR {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .info {
+    width: 90%;
+  }
+
   nav,
   .boxContainer,
-  .info,
   .activityBox,
-  .activityTitle,
   footer {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .card img {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .card img {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .card img {
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .card img {
+    width: 90%;
   }
 }
