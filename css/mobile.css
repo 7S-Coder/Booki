@@ -1,3 +1,9 @@
+@media screen and (max-width: 842px) {
+  .infoCard .first {
+    margin-top: 14px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #logoSmall {
     margin: 0 auto;
@@ -5,6 +11,10 @@
 
   .viewMore {
     display: none;
+  }
+
+  .infoCard .starBox {
+    margin-top: 59px;
   }
 
   .container {
@@ -148,9 +158,25 @@
   }
 }
 
+@media screen and (max-width: 532px) {
+  .infoCard .second {
+    margin-top: 41px;
+  }
+}
+
 @media screen and (max-width: 441px) {
   .card img {
     width: 93%;
+  }
+}
+
+@media screen and (max-width: 386px) {
+  .infoCard .first {
+    margin-top: 23px;
+  }
+
+  .infoCard .thirst {
+    margin-top: 42px;
   }
 }
 

@@ -238,6 +238,11 @@ form input {
   width: 420px;
 }
 
+.infoCard .starBox {
+  padding-left: 12px;
+  margin-top: 50px;
+}
+
 .boxL h1 {
   padding-left: 22px;
   width: 50%;
@@ -352,8 +357,13 @@ h3 {
 }
 
 .infoCard {
+  display: flex;
   flex-direction: column;
   padding: 2px 0;
+}
+
+.infoCard h3 {
+  height: 38px;
 }
 
 .cardR .infoCard {
@@ -367,10 +377,6 @@ h3 {
 
 .infoCard p {
   margin-top: 7px;
-}
-
-.infoCard .starBox {
-  margin-top: 50px;
 }
 
 .activityBox {
@@ -492,15 +498,6 @@ h4 {
     width: 32%;
   }
 
-  .infoCard .starBox {
-    margin-top: 21px;
-  }
-
-  .up {
-    position: relative;
-    bottom: 17px;
-  }
-
   .titleBoxR h1 {
     display: block;
     font-size: 22px;
@@ -543,15 +540,27 @@ h4 {
   .titleBoxR h1 {
     margin-left: 10px;
   }
+
+  .infoCard h3 {
+    height: auto;
+  }
+
+  .infoCard .starBox {
+    margin-top: 32px;
+  }
 }
 
 @media screen and (max-width: 1008px) {
   .infoCard .starBox {
-    margin-top: 25px;
+    margin-top: 31px;
+  }
+
+  .infoCard .second {
+    margin-top: 13px;
   }
 }
 
-@media screen and (max-width: 978px) {
+@media screen and (max-width: 938px) {
   .boxL {
     height: 800px;
   }
