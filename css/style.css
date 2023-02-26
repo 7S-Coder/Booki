@@ -126,10 +126,8 @@ form button {
   color: white;
   padding: 0 10px;
   border-radius: 0 15px 15px 0;
-}
 
-button p {
-  font-weight: bolder;
+  font-weight: 100;
 }
 
 form button,
@@ -251,6 +249,8 @@ form input {
 .titleBoxR {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
   padding-right: 56px;
 }
 
