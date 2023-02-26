@@ -5,6 +5,7 @@
 
 main {
   width: 100%;
+  overflow-x: hidden;
 }
 
 .loop {
@@ -353,6 +354,15 @@ h3 {
 .infoCard {
   flex-direction: column;
   padding: 2px 0;
+}
+
+.cardR .infoCard {
+  padding: 8px 10px 0px 0px;
+}
+
+.cardR h3,
+.cardR p {
+  padding-left: 13px;
 }
 
 .infoCard p {
