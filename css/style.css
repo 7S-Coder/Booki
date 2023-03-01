@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+body {
+  max-width: 1400px;
+
+  font-family: Raleway;
+
+  background-color: white;
+}
+
 main {
   width: 100%;
   overflow-x: hidden;
@@ -39,12 +47,7 @@ p {
   font-size: 16px;
 }
 
-body {
-  font-family: Raleway;
-
-  background-color: white;
-}
-
+body,
 nav,
 .boxContainer,
 .info,
@@ -65,7 +68,7 @@ nav,
 .info,
 .activityBox,
 .activityTitle {
-  width: 1340px;
+  max-width: 1340px;
   margin-bottom: 30px;
 }
 
@@ -183,6 +186,9 @@ form input {
 
   border-radius: 25px;
   border: 2px solid #d9d9d9;
+
+  max-width: 226px;
+  height: 50px;
 }
 
 .filterSlide button:hover {
@@ -248,8 +254,8 @@ form input {
   width: 50%;
 }
 
-.boxR h1 {
-  padding-left: 11px;
+h2 {
+  padding-left: 22px;
 }
 
 .titleBoxR {
@@ -363,7 +369,7 @@ h3 {
 }
 
 .infoCard h3 {
-  height: 38px;
+  margin-bottom: 5px;
 }
 
 .cardR .infoCard {
@@ -373,10 +379,6 @@ h3 {
 .cardR h3,
 .cardR p {
   padding-left: 13px;
-}
-
-.infoCard p {
-  margin-top: 7px;
 }
 
 .activityBox {
@@ -448,120 +450,4 @@ footer ul li {
 
 h4 {
   font-size: 18px;
-}
-
-@media screen and (max-width: 1500px) {
-  nav,
-  .boxContainer,
-  .info,
-  .activityBox,
-  .activityTitle,
-  footer {
-    width: 90%;
-  }
-
-  .boxContainer {
-    display: block;
-  }
-
-  .boxL {
-    height: 600px;
-  }
-
-  .boxR {
-    margin-top: 50px;
-    height: auto;
-
-    padding-bottom: 20px;
-  }
-
-  .boxL,
-  .boxR {
-    width: 100%;
-  }
-
-  .titleBoxR {
-    padding-right: 25px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  nav,
-  .boxContainer,
-  .info,
-  .activityTitle,
-  footer {
-    width: 90%;
-  }
-
-  .cardR {
-    width: 32%;
-  }
-
-  .titleBoxR h1 {
-    display: block;
-    font-size: 22px;
-  }
-
-  .activity {
-    width: 267px;
-  }
-
-  .activity img {
-    height: 211px;
-  }
-
-  .cardR {
-    padding: 2px;
-  }
-}
-
-@media screen and (max-width: 1458px) {
-  .activity {
-    width: 50%;
-    margin-right: 30px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .activity {
-    width: 211px;
-    height: 267px;
-  }
-
-  .activity img {
-    height: 217px;
-  }
-
-  .activity h3 {
-    margin-top: 9px;
-  }
-
-  .titleBoxR h1 {
-    margin-left: 10px;
-  }
-
-  .infoCard h3 {
-    height: auto;
-  }
-
-  .infoCard .starBox {
-    margin-top: 32px;
-  }
-}
-
-@media screen and (max-width: 1008px) {
-  .infoCard .starBox {
-    margin-top: 31px;
-  }
-
-  .infoCard .second {
-    margin-top: 13px;
-  }
-}
-
-@media screen and (max-width: 938px) {
-  .boxL {
-    height: 800px;
-  }
 }

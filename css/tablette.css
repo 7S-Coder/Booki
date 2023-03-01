@@ -1,15 +1,52 @@
-@media screen and (max-width: 984px) {
-  .boxL .card {
-    width: 267px;
+@media screen and (max-width: 1024px) {
+  main .boxR {
+    max-width: 880px;
   }
-}
 
-@media screen and (max-width: 878px) {
+  .boxR {
+    width: auto;
+  }
+
+  .boxContainer {
+    flex-direction: column;
+  }
+
+  .boxL {
+    height: 626px;
+    margin-bottom: 53px;
+  }
+
+  .cardR {
+    width: 242px;
+  }
+
   .infoCard .starBox {
-    margin-top: 33px;
+    margin-top: 0px;
   }
 
-  .infoCard .second {
-    margin-top: 14px;
+  .activity {
+    height: 267px;
+    width: 182px;
+  }
+
+  .activity img {
+    height: 211px;
+  }
+
+  nav,
+  .boxContainer,
+  .info,
+  .activityBox,
+  .activityTitle {
+    max-width: 880px;
+    margin-bottom: 30px;
+  }
+
+  footer {
+    max-width: 880px;
+  }
+
+  .activity h3 {
+    margin-top: 5px;
   }
 }

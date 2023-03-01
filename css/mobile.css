@@ -1,9 +1,3 @@
-@media screen and (max-width: 842px) {
-  .infoCard .first {
-    margin-top: 14px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   #logoSmall {
     margin: 0 auto;
@@ -47,7 +41,6 @@
   }
 
   .activityTitle {
-    padding-left: 20px;
     width: 50%;
 
     margin-left: 0;
@@ -76,10 +69,6 @@
   p,
   span {
     margin: 10px 0;
-  }
-
-  header {
-    padding-left: 15px;
   }
 
   .loop {
@@ -144,45 +133,5 @@
   .activityBox,
   footer {
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 635px) {
-  .card img {
-    width: 96%;
-  }
-}
-
-@media screen and (max-width: 545px) {
-  .card img {
-    width: 95%;
-  }
-}
-
-@media screen and (max-width: 532px) {
-  .infoCard .second {
-    margin-top: 41px;
-  }
-}
-
-@media screen and (max-width: 441px) {
-  .card img {
-    width: 93%;
-  }
-}
-
-@media screen and (max-width: 386px) {
-  .infoCard .first {
-    margin-top: 23px;
-  }
-
-  .infoCard .thirst {
-    margin-top: 42px;
-  }
-}
-
-@media screen and (max-width: 335px) {
-  .card img {
-    width: 90%;
   }
 }
