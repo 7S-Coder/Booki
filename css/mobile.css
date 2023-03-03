@@ -54,7 +54,7 @@
     margin-left: 0;
     margin-right: 0;
 
-    padding-left: 41px;
+    padding-left: 76px;
   }
 
   .searchText {
@@ -82,7 +82,7 @@
   }
 
   form input {
-    max-width: 232px;
+    max-width: 273px;
   }
 
   .loop {
@@ -188,12 +188,25 @@
   }
 
   @media screen and (max-width: 425px) {
+    nav .container {
+      padding: 0 0;
+    }
+
     .filterSlide button {
       width: 186px;
     }
 
+    .boxR {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .cardR {
+      width: 92%;
+    }
+
     .cardContainer .card {
-      width: 43%;
+      width: 101%;
     }
 
     .card img {
@@ -211,7 +224,19 @@
     }
 
     .cardContainer .card {
-      width: 40%;
+      width: 100%;
+    }
+
+    .card img {
+      width: 97%;
+    }
+
+    .infoCard .starBox {
+      width: 100px;
+    }
+
+    .cardR {
+      width: 91%;
     }
   }
 
@@ -234,11 +259,15 @@
     }
 
     .cardContainer .card {
-      width: 33%;
+      width: 102%;
+    }
+
+    .cardR {
+      width: 94%;
     }
 
     .card img {
-      width: 92%;
+      width: 97%;
     }
 
     form input {

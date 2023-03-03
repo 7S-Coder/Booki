@@ -13,7 +13,7 @@
   }
 
   .titleBoxR {
-    padding-right: 23px;
+    padding-right: 41px;
   }
 
   .boxL {
@@ -66,17 +66,34 @@
     width: 768px;
   }
 
+  nav .container {
+    padding: 0 38px;
+  }
+
   .boxL {
     height: 603px;
   }
 
+  nav .title,
+  nav form,
+  nav .filterSlide,
+  .info,
   .boxL,
-  .boxR,
   .activityBox,
   footer {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .boxR {
+    margin-left: 34px;
+    margin-right: 32px;
+  }
+
+  .filterSlide button {
+    max-width: 141px;
+    font-size: 15px;
   }
 
   .cardContainer .card {
