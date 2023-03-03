@@ -60,3 +60,48 @@
     margin-top: 5px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 768px;
+  }
+
+  .boxL {
+    height: 603px;
+  }
+
+  .boxL,
+  .boxR,
+  .activityBox,
+  footer {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cardContainer .card {
+    width: 194px;
+  }
+
+  .cardR {
+    width: 196px;
+  }
+
+  .card img {
+    width: 90%;
+  }
+
+  .infoCard h3 {
+    max-height: 38px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .activity {
+    width: 152px;
+  }
+
+  .activityTitle {
+    padding-left: 34px;
+  }
+}
