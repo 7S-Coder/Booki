@@ -5,10 +5,15 @@
 
   .boxR {
     width: auto;
+    margin-bottom: 35px;
   }
 
   .boxContainer {
     flex-direction: column;
+  }
+
+  .titleBoxR {
+    padding-right: 23px;
   }
 
   .boxL {
@@ -21,7 +26,7 @@
   }
 
   .infoCard .starBox {
-    margin-top: 0px;
+    margin-top: 115px;
   }
 
   .activity {
@@ -36,14 +41,19 @@
   nav,
   .boxContainer,
   .info,
-  .activityBox,
-  .activityTitle {
+  .activityBox {
     max-width: 880px;
     margin-bottom: 30px;
   }
 
+  .activityTitle,
   footer {
     max-width: 880px;
+  }
+
+  .activityTitle {
+    margin-bottom: 0px;
+    padding-left: 4px;
   }
 
   .activity h3 {

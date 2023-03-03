@@ -24,6 +24,11 @@ header nav p {
   margin-top: 16px;
 }
 
+header form input {
+  font-size: 21px;
+  padding: 12px;
+}
+
 header form p {
   margin-top: 13px;
 }
@@ -119,12 +124,11 @@ form {
 }
 
 form input {
-  width: 332px;
+  max-width: 253px;
 }
 
 form button {
   position: relative;
-  right: 60px;
   width: 132px;
   background-color: #0065fc;
   color: white;
@@ -137,7 +141,7 @@ form button {
 form button,
 form input,
 .glass {
-  border: 1px solid grey;
+  border: 1px solid #f2f2f2;
 }
 
 .glass {
@@ -245,8 +249,9 @@ form input {
 }
 
 .infoCard .starBox {
-  padding-left: 12px;
-  margin-top: 50px;
+  position: absolute;
+  padding-left: 13px;
+  margin-top: 112px;
 }
 
 .boxL h1 {
@@ -255,7 +260,7 @@ form input {
 }
 
 h2 {
-  padding-left: 22px;
+  padding-left: 40px;
 }
 
 .titleBoxR {
@@ -263,7 +268,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
 
-  padding-right: 56px;
+  padding-right: 39px;
 }
 
 .cardContainer {
@@ -271,7 +276,23 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
 
-  margin: 0 21px 30px;
+  margin: 0 40px 30px;
+}
+
+.activityTitle {
+  padding-left: 2px;
+}
+
+.cardContainer a,
+a .activity {
+  color: black;
+}
+
+.cardContainer .card:hover,
+.cardR:hover,
+.activity:hover {
+  background-color: #deebff;
+  border-color: #f2f2f2;
 }
 
 .card,
@@ -321,7 +342,8 @@ h3 {
   font-size: 21px;
   font-weight: bold;
 
-  padding-left: 21px;
+  padding-left: 40px;
+  margin-top: 50px;
 }
 
 .cardR {
@@ -384,10 +406,6 @@ h3 {
 .activityBox {
   display: flex;
   justify-content: space-between;
-}
-
-.activityTitle {
-  margin-bottom: 5px;
 }
 
 .activity {

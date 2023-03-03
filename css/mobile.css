@@ -3,12 +3,18 @@
     margin: 0 auto;
   }
 
-  .viewMore {
-    display: none;
+  body {
+    max-width: 768px;
   }
 
-  .infoCard .starBox {
-    margin-top: 59px;
+  header .container img,
+  header nav .title,
+  header nav form {
+    padding: 0 5%;
+  }
+
+  .viewMore {
+    display: none;
   }
 
   .container {
@@ -19,7 +25,7 @@
   .container ul li {
     text-align: center;
     width: 50%;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 
   .container ul li:hover {
@@ -29,6 +35,10 @@
 
   .title {
     margin-top: 0;
+  }
+
+  .titleBoxR {
+    padding-right: 39px;
   }
 
   form button {
@@ -41,10 +51,10 @@
   }
 
   .activityTitle {
-    width: 50%;
-
     margin-left: 0;
     margin-right: 0;
+
+    padding-left: 41px;
   }
 
   .searchText {
@@ -58,7 +68,7 @@
   .filterSlide button {
     width: 160px;
     height: 50px;
-    margin-bottom: 6px;
+    margin-bottom: 17px;
 
     font-size: 11px;
     font-weight: 600;
@@ -69,6 +79,10 @@
   p,
   span {
     margin: 10px 0;
+  }
+
+  form input {
+    max-width: 232px;
   }
 
   .loop {
@@ -91,14 +105,39 @@
   .boxL {
     background-color: white;
     height: auto;
+    margin-bottom: 0px;
+  }
+
+  .boxL .card {
+    width: 87%;
   }
 
   .cardContainer {
     flex-direction: column;
   }
 
+  .cardContainer .card {
+    width: 87%;
+  }
+
+  .cardContainer a {
+    height: 166px;
+  }
+
+  .boxL .cardContainer a {
+    height: 247px;
+  }
+
   .card img {
     width: 97%;
+  }
+
+  .boxR {
+    padding-top: 12px;
+  }
+
+  .boxL {
+    padding-top: 15px;
   }
 
   .activityBox {
@@ -110,28 +149,104 @@
   }
 
   .activity,
-  .card,
   span {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .filterSlide span {
+    margin-right: 18px;
+  }
+
   .cardR {
     margin-left: auto;
     margin-right: auto;
+
+    margin-bottom: -4px;
   }
 
   .info {
     width: 90%;
   }
 
-  .boxL .card,
   .cardR,
   .activity nav,
   .boxContainer,
   .activityBox,
   footer {
     width: 100%;
+  }
+
+  .boxContainer,
+  .activityTitle {
+    margin-bottom: 0;
+  }
+
+  .activity h3 {
+    margin-top: 15px;
+  }
+
+  @media screen and (max-width: 425px) {
+    .filterSlide button {
+      width: 186px;
+    }
+
+    .cardContainer .card {
+      width: 43%;
+    }
+
+    .card img {
+      width: 94%;
+    }
+
+    .activity {
+      width: 81%;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .filterSlide button {
+      width: 163px;
+    }
+
+    .cardContainer .card {
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .boxL .cardContainer {
+      margin: 0 28px 30px;
+      margin-right: 47px;
+    }
+
+    h2 {
+      padding-left: 10px;
+    }
+
+    .activityTitle {
+      padding-left: 17px;
+    }
+
+    .titleBoxR {
+      padding-right: 38px;
+    }
+
+    .cardContainer .card {
+      width: 33%;
+    }
+
+    .card img {
+      width: 92%;
+    }
+
+    form input {
+      max-width: 187px;
+    }
+
+    .filterSlide button {
+      width: 136px;
+    }
   }
 }
