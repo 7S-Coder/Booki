@@ -3,16 +3,18 @@
   padding: 0;
 }
 
-body {
+body,
+main {
   max-width: 1400px;
+}
 
+body {
   font-family: Raleway;
 
   background-color: white;
 }
 
 main {
-  width: 100%;
   overflow-x: hidden;
 }
 
@@ -37,15 +39,9 @@ nav span {
   font-weight: bold;
 }
 
-.titleBoxR h1,
 h1,
 nav span {
   font-size: 1.5em;
-}
-
-.titleBoxR h1 {
-  display: block;
-  font-weight: bold;
 }
 
 p {
@@ -73,7 +69,6 @@ nav,
 .info,
 .activityBox,
 .activityTitle {
-  max-width: 1340px;
   margin-bottom: 30px;
 }
 
@@ -141,7 +136,7 @@ form button {
 form button,
 form input,
 .glass {
-  border: 1px solid #f2f2f2;
+  border: 1px solid #d9d9d9;
 }
 
 .glass {
@@ -241,7 +236,13 @@ form input {
 }
 
 .boxL {
-  width: 880px;
+  max-width: 846px;
+}
+
+.titleBoxR h2,
+.boxL h2,
+.viewMore {
+  padding-left: 41px;
 }
 
 .boxR {
@@ -277,10 +278,6 @@ h2 {
   justify-content: space-between;
 
   margin: 0 40px 30px;
-}
-
-.activityTitle {
-  padding-left: 2px;
 }
 
 .cardContainer a,
@@ -342,7 +339,6 @@ h3 {
   font-size: 21px;
   font-weight: bold;
 
-  padding-left: 40px;
   margin-top: 50px;
 }
 
@@ -438,13 +434,26 @@ h3 {
   float: right;
 }
 
+nav .container,
+nav .title,
+nav form,
+.filterSlide,
+.info,
+h2,
+.boxContainer,
+.activityBox,
+footer {
+  padding: 0 50px;
+}
+
 footer {
   display: flex;
 
-  width: 1340px;
+  width: 1182px;
 
   margin-top: 60px;
   padding-bottom: 20px;
+  padding-left: 70px;
   justify-content: space-between;
   background-color: #d9d9d9;
 }
@@ -454,7 +463,6 @@ footer ul {
   width: 90%;
 
   margin-top: 15px;
-  padding-left: 70px;
 }
 
 footer ul li:first-child {

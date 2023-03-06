@@ -4,7 +4,7 @@
   }
 
   body {
-    max-width: 768px;
+    max-width: 767px;
   }
 
   header .container img,
@@ -108,8 +108,9 @@
     margin-bottom: 0px;
   }
 
-  .boxL .card {
-    width: 87%;
+  .boxL,
+  .card {
+    width: 730px;
   }
 
   .cardContainer {
@@ -175,7 +176,7 @@
   .boxContainer,
   .activityBox,
   footer {
-    width: 100%;
+    width: 767px;
   }
 
   .boxContainer,
@@ -188,6 +189,10 @@
   }
 
   @media screen and (max-width: 425px) {
+    body {
+      max-width: 425px;
+    }
+
     nav .container {
       padding: 0 0;
     }
@@ -196,31 +201,54 @@
       width: 186px;
     }
 
+    .boxL,
+    .card {
+      width: 415px;
+    }
+
     .boxR {
       margin-left: 0;
       margin-right: 0;
     }
 
     .cardR {
-      width: 92%;
+      width: 415px;
     }
 
     .cardContainer .card {
-      width: 101%;
+      width: 415px;
     }
 
-    .card img {
-      width: 94%;
+    .card img,
+    .card {
+      width: 410px;
     }
 
     .activity {
-      width: 81%;
+      width: 410px;
     }
   }
 
+  .cardR,
+  .activity nav,
+  .boxContainer,
+  .activityBox,
+  footer {
+    width: 425px;
+  }
+
   @media screen and (max-width: 375px) {
+    body {
+      max-width: 375px;
+    }
+
     .filterSlide button {
       width: 163px;
+    }
+
+    .boxL,
+    .card {
+      width: 370px;
     }
 
     .cardContainer .card {
@@ -238,9 +266,21 @@
     .cardR {
       width: 91%;
     }
+
+    .cardR,
+    .activity nav,
+    .boxContainer,
+    .activityBox,
+    footer {
+      width: 375px;
+    }
   }
 
   @media screen and (max-width: 320px) {
+    body {
+      max-width: 320px;
+    }
+
     .boxL .cardContainer {
       margin: 0 28px 30px;
       margin-right: 47px;
@@ -276,6 +316,14 @@
 
     .filterSlide button {
       width: 136px;
+    }
+
+    .cardR,
+    .activity nav,
+    .boxContainer,
+    .activityBox,
+    footer {
+      width: 320px;
     }
   }
 }

@@ -1,6 +1,18 @@
 @media screen and (max-width: 1024px) {
-  main .boxR {
+  main .boxR,
+  .activityTitle,
+  .boxL {
     max-width: 880px;
+  }
+
+  nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .boxL {
+    height: 626px;
+    margin-bottom: 53px;
   }
 
   .boxR {
@@ -16,11 +28,6 @@
     padding-right: 41px;
   }
 
-  .boxL {
-    height: 626px;
-    margin-bottom: 53px;
-  }
-
   .cardR {
     width: 242px;
   }
@@ -31,14 +38,18 @@
 
   .activity {
     height: 267px;
-    width: 182px;
+    width: 118px;
   }
 
   .activity img {
     height: 211px;
   }
 
-  nav,
+  .filterSlide button {
+    max-width: 157px;
+    font-size: 12px;
+  }
+
   .boxContainer,
   .info,
   .activityBox {
@@ -46,18 +57,28 @@
     margin-bottom: 30px;
   }
 
-  .activityTitle,
-  footer {
-    max-width: 880px;
-  }
-
   .activityTitle {
     margin-bottom: 0px;
-    padding-left: 4px;
   }
 
   .activity h3 {
     margin-top: 5px;
+  }
+
+  footer {
+    width: auto;
+    margin: 0 72px;
+  }
+
+  nav .container,
+  nav .title,
+  nav form,
+  .filterSlide,
+  .info,
+  .boxContainer,
+  .activityBox,
+  footer {
+    padding: 0 72px;
   }
 }
 
@@ -66,38 +87,21 @@
     width: 768px;
   }
 
-  nav .container {
-    padding: 0 38px;
-  }
-
-  .boxL {
-    height: 603px;
-  }
-
-  nav .title,
-  nav form,
-  nav .filterSlide,
-  .info,
-  .boxL,
-  .activityBox,
-  footer {
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .boxR {
-    margin-left: 34px;
-    margin-right: 32px;
+  nav form {
+    max-width: 768px;
   }
 
   .filterSlide button {
-    max-width: 141px;
-    font-size: 15px;
+    max-width: 142px;
+    font-size: 12px;
+  }
+
+  .boxL {
+    height: 623px;
   }
 
   .cardContainer .card {
-    width: 194px;
+    width: 160px;
   }
 
   .cardR {
@@ -105,7 +109,11 @@
   }
 
   .card img {
-    width: 90%;
+    width: 88%;
+  }
+
+  .card h3 {
+    height: 38px;
   }
 
   .infoCard h3 {
@@ -114,11 +122,25 @@
     overflow: hidden;
   }
 
-  .activity {
-    width: 152px;
+  .activityTitle {
+    padding-left: 72px;
   }
 
-  .activityTitle {
-    padding-left: 34px;
+  .activity {
+    width: 138px;
+    height: 200px;
+  }
+
+  .activity img {
+    height: 145px;
+  }
+
+  footer {
+    max-width: 478px;
+    padding-left: 78px;
+  }
+
+  footer ul {
+    width: 25%;
   }
 }
