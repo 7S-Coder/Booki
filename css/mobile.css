@@ -10,6 +10,7 @@
   .container {
     flex-direction: column;
     margin-bottom: 30px;
+    padding: 0;
   }
 
   .container ul li {
@@ -120,7 +121,6 @@
     width: 349px;
   }
 
-  nav .container,
   nav .title,
   nav form,
   .filterSlide,
