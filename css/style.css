@@ -136,7 +136,7 @@ form button {
 form button,
 form input,
 .glass {
-  border: 1px solid #d9d9d9;
+  border: 1px solid #f2f2f2;
 }
 
 .glass {
@@ -144,6 +144,7 @@ form input,
   justify-content: center;
   align-items: center;
   border-right: none;
+  background-color: #f2f2f2;
 }
 
 .filterSlide i {
