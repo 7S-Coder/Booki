@@ -1,20 +1,10 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
+  body {
+    max-width: 425px;
+  }
+
   #logoSmall {
     margin: 0 auto;
-  }
-
-  body {
-    max-width: 767px;
-  }
-
-  header .container img,
-  header nav .title,
-  header nav form {
-    padding: 0 5%;
-  }
-
-  .viewMore {
-    display: none;
   }
 
   .container {
@@ -33,297 +23,118 @@
     border-top: 3px solid white;
   }
 
-  .title {
+  nav .container {
+    padding: 0 0;
+  }
+
+  nav .title {
     margin-top: 0;
-  }
-
-  .titleBoxR {
-    padding-right: 39px;
-  }
-
-  form button {
-    width: 49px;
-  }
-
-  .boxContainer {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .activityTitle {
-    margin-left: 0;
-    margin-right: 0;
-
-    padding-left: 76px;
-  }
-
-  .searchText {
-    display: none;
-  }
-
-  form button {
-    right: 17px;
-  }
-
-  .filterSlide button {
-    width: 160px;
-    height: 50px;
-    margin-bottom: 17px;
-
-    font-size: 11px;
-    font-weight: 600;
-
-    justify-content: space-between;
-  }
-
-  p,
-  span {
-    margin: 10px 0;
-  }
-
-  form input {
-    max-width: 273px;
   }
 
   .loop {
     visibility: visible;
   }
 
-  span {
-    display: inline-block;
+  form button {
+    width: 49px;
   }
 
-  .boxR {
+  .searchText {
+    display: none;
+  }
+
+  .filterSlide span {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .filterSlide button {
+    width: 160px;
+    margin-right: 17px;
+    margin-bottom: 17px;
+  }
+
+  .boxContainer {
+    flex-direction: column-reverse;
+    padding: 0;
     margin-top: 0;
   }
 
-  .boxR,
-  .boxL {
+  .boxL,
+  .boxR {
     border-radius: 0;
   }
 
+  .boxR {
+    padding-top: 17px;
+    margin-bottom: 0;
+  }
+
   .boxL {
-    background-color: white;
-    height: auto;
-    margin-bottom: 0px;
+    background-color: #fff;
+    padding-top: 26px;
+    height: 1360px;
   }
 
-  .boxL,
-  .card {
-    width: 730px;
+  .viewMore {
+    display: none;
   }
 
-  .cardContainer {
-    flex-direction: column;
+  .cardR {
+    width: 100%;
   }
 
   .cardContainer .card {
-    width: 87%;
-  }
-
-  .cardContainer a {
-    height: 166px;
-  }
-
-  .boxL .cardContainer a {
-    height: 247px;
+    width: 346px;
   }
 
   .card img {
-    width: 97%;
+    width: 94%;
   }
 
-  .boxR {
-    padding-top: 12px;
+  .boxR a {
+    width: 345px;
   }
 
-  .boxL {
-    padding-top: 15px;
+  .card h3 {
+    height: 19px;
+  }
+
+  .activityTitle {
+    padding-left: 37px;
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .activityBox {
     flex-direction: column;
-  }
-
-  footer {
-    flex-direction: column;
-  }
-
-  .activity,
-  span {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .filterSlide span {
-    margin-right: 18px;
-  }
-
-  .cardR {
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-bottom: -4px;
-  }
-
-  .info {
-    width: 90%;
-  }
-
-  .cardR,
-  .activity nav,
-  .boxContainer,
-  .activityBox,
-  footer {
-    width: 767px;
-  }
-
-  .boxContainer,
-  .activityTitle {
-    margin-bottom: 0;
+    padding: 0 41px;
   }
 
   .activity h3 {
-    margin-top: 15px;
+    margin-top: 14px;
   }
 
-  @media screen and (max-width: 425px) {
-    body {
-      max-width: 425px;
-    }
-
-    nav .container {
-      padding: 0 0;
-    }
-
-    .filterSlide button {
-      width: 186px;
-    }
-
-    .boxL,
-    .card {
-      width: 415px;
-    }
-
-    .boxR {
-      margin-left: 0;
-      margin-right: 0;
-    }
-
-    .cardR {
-      width: 415px;
-    }
-
-    .cardContainer .card {
-      width: 415px;
-    }
-
-    .card img,
-    .card {
-      width: 410px;
-    }
-
-    .activity {
-      width: 410px;
-    }
+  .activity {
+    width: 349px;
   }
 
-  .cardR,
-  .activity nav,
-  .boxContainer,
-  .activityBox,
+  nav .container,
+  nav .title,
+  nav form,
+  .filterSlide,
+  .info {
+    padding: 0 20px;
+  }
+
   footer {
-    width: 425px;
+    margin: 0;
+    flex-direction: column;
+    padding-bottom: 61px;
   }
 
-  @media screen and (max-width: 375px) {
-    body {
-      max-width: 375px;
-    }
-
-    .filterSlide button {
-      width: 163px;
-    }
-
-    .boxL,
-    .card {
-      width: 370px;
-    }
-
-    .cardContainer .card {
-      width: 100%;
-    }
-
-    .card img {
-      width: 97%;
-    }
-
-    .infoCard .starBox {
-      width: 100px;
-    }
-
-    .cardR {
-      width: 91%;
-    }
-
-    .cardR,
-    .activity nav,
-    .boxContainer,
-    .activityBox,
-    footer {
-      width: 375px;
-    }
-  }
-
-  @media screen and (max-width: 320px) {
-    body {
-      max-width: 320px;
-    }
-
-    .boxL .cardContainer {
-      margin: 0 28px 30px;
-      margin-right: 47px;
-    }
-
-    h2 {
-      padding-left: 10px;
-    }
-
-    .activityTitle {
-      padding-left: 17px;
-    }
-
-    .titleBoxR {
-      padding-right: 38px;
-    }
-
-    .cardContainer .card {
-      width: 102%;
-    }
-
-    .cardR {
-      width: 94%;
-    }
-
-    .card img {
-      width: 97%;
-    }
-
-    form input {
-      max-width: 187px;
-    }
-
-    .filterSlide button {
-      width: 136px;
-    }
-
-    .cardR,
-    .activity nav,
-    .boxContainer,
-    .activityBox,
-    footer {
-      width: 320px;
-    }
+  footer ul {
+    width: 80%;
   }
 }
