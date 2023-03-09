@@ -1,8 +1,4 @@
-@media screen and (max-width: 425px) {
-  body {
-    max-width: 425px;
-  }
-
+@media screen and (max-width: 767px) {
   #logoSmall {
     margin: 0 auto;
   }
@@ -55,13 +51,15 @@
   }
 
   .filterSlide button {
-    width: 160px;
+    width: 39%;
     margin-right: 17px;
     margin-bottom: 17px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-left: 10px;
+
+    font-size: 0.6em;
   }
 
   .boxContainer {
@@ -76,6 +74,7 @@
   }
 
   .boxR {
+    width: auto;
     padding-top: 17px;
     margin-bottom: 0;
   }
@@ -83,7 +82,7 @@
   .boxL {
     background-color: #fff;
     padding-top: 26px;
-    height: 1360px;
+    margin-bottom: 60px;
   }
 
   .viewMore {
@@ -95,7 +94,7 @@
   }
 
   .cardContainer .card {
-    width: 346px;
+    width: 340px;
   }
 
   .card img {
@@ -103,7 +102,7 @@
   }
 
   .boxR a {
-    width: 345px;
+    width: 40vh;
   }
 
   .card h3 {
@@ -115,6 +114,7 @@
     width: 50%;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
   }
 
   .activityBox {
@@ -128,6 +128,12 @@
 
   .activity {
     width: 346px;
+    height: 190px;
+  }
+
+  .activity img {
+    width: 100%;
+    height: 131px;
   }
 
   nav .title,
@@ -145,5 +151,35 @@
 
   footer ul {
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cardContainer .card,
+  .activity {
+    width: 295px;
+  }
+
+  .activity {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  form input {
+    max-width: 178px;
+  }
+
+  .cardContainer .card,
+  .activity {
+    width: 240px;
+  }
+
+  .card img {
+    width: 92%;
+  }
+
+  .activity {
+    height: 190px;
   }
 }

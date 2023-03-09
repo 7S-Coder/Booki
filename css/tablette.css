@@ -1,17 +1,10 @@
-@media screen and (max-width: 1024px) {
-  main .boxR,
-  .activityTitle,
-  .boxL {
-    max-width: 880px;
-  }
-
+@media screen and (min-width: 768px) and (max-width: 992px) {
   nav {
     margin-left: 0;
     margin-right: 0;
   }
 
   .boxL {
-    height: 626px;
     margin-bottom: 53px;
   }
 
@@ -29,7 +22,25 @@
   }
 
   .cardR {
-    width: 242px;
+    width: 175px;
+  }
+
+  .card {
+    width: 174px;
+    height: 231px;
+  }
+
+  .card h3 {
+    height: 39px;
+  }
+
+  .card img {
+    width: 89%;
+  }
+
+  .viewMore {
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 
   .infoCard .starBox {
@@ -37,7 +48,7 @@
   }
 
   .activity {
-    height: 267px;
+    height: 33vh;
     width: 118px;
   }
 
@@ -46,8 +57,8 @@
   }
 
   .filterSlide button {
-    max-width: 157px;
-    font-size: 12px;
+    max-width: 22%;
+    font-size: 0.7em;
   }
 
   .boxContainer,
@@ -70,6 +81,10 @@
     margin: 0 72px;
   }
 
+  footer ul {
+    width: 24%;
+  }
+
   nav .container,
   nav .title,
   nav form,
@@ -82,6 +97,7 @@
   }
 }
 
+/*
 @media screen and (max-width: 768px) {
   body {
     width: 768px;
@@ -144,3 +160,5 @@
     width: 25%;
   }
 }
+
+  */
