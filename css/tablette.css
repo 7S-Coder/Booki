@@ -47,6 +47,11 @@
     margin-top: 115px;
   }
 
+  .infoCard {
+    position: relative;
+    right: 8px;
+  }
+
   .activity {
     height: 33vh;
     width: 118px;
