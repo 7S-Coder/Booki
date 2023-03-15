@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1360px) {
   nav {
     margin-left: 0;
     margin-right: 0;
@@ -6,6 +6,7 @@
 
   .boxL {
     margin-bottom: 53px;
+    margin-right: 0;
   }
 
   .boxR {
@@ -21,21 +22,28 @@
     padding-right: 41px;
   }
 
+  .boxL .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 31px;
+    grid-row-gap: 0px;
+  }
+
+  .boxL .card {
+    width: auto;
+  }
+
+  .boxR .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 26px;
+    grid-row-gap: 0px;
+  }
+
   .cardR {
-    width: 175px;
-  }
-
-  .card {
-    width: 174px;
-    height: 231px;
-  }
-
-  .card h3 {
-    height: 39px;
-  }
-
-  .card img {
-    width: 89%;
+    width: auto;
   }
 
   .viewMore {
@@ -53,8 +61,12 @@
   }
 
   .activity {
-    height: 33vh;
-    width: 118px;
+    height: 267px;
+    width: auto;
+  }
+
+  .activityBox .last {
+    margin-right: 0;
   }
 
   .activity img {
@@ -66,15 +78,22 @@
     font-size: 0.7em;
   }
 
-  .boxContainer,
-  .info,
-  .activityBox {
+  .info {
     max-width: 880px;
     margin-bottom: 30px;
   }
 
+  .activityBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+  }
+
   .activityTitle {
     margin-bottom: 0px;
+    margin-left: 23px;
   }
 
   .activity h3 {
