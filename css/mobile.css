@@ -114,7 +114,7 @@
   }
 
   .card img {
-    width: 95%;
+    width: 97%;
   }
 
   .card h3 {
@@ -169,32 +169,20 @@
   }
 }
 
-@media screen and (max-width: 375px) {
-  .cardContainer .card,
-  .activity {
-    width: 295px;
+@media screen and (max-width: 620px) {
+  .card img {
+    width: 96%;
   }
+}
 
-  .activity {
-    height: 190px;
+@media screen and (max-width: 508px) {
+  .card img {
+    width: 95%;
   }
 }
 
 @media screen and (max-width: 320px) {
   form input {
     max-width: 178px;
-  }
-
-  .cardContainer .card,
-  .activity {
-    width: 240px;
-  }
-
-  .card img {
-    width: 92%;
-  }
-
-  .activity {
-    height: 190px;
   }
 }
