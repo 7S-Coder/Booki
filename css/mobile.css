@@ -42,24 +42,23 @@
   }
 
   .filterSlide {
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 17px;
+    grid-row-gap: 14px;
   }
 
   .filterSlide span {
-    width: 100%;
-    margin-bottom: 15px;
+    grid-area: 1 / 1 / 2 / 3;
   }
 
   .filterSlide button {
-    width: 39%;
-    margin-right: 17px;
-    margin-bottom: 17px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 10px;
-
-    font-size: 0.6em;
+    font-size: 0.7em;
+    max-width: 767px;
   }
 
   .boxContainer {
@@ -79,10 +78,27 @@
     margin-bottom: 0;
   }
 
+  .boxR .cardContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
   .boxL {
     background-color: #fff;
     padding-top: 26px;
     margin-bottom: 60px;
+    margin-right: 0;
+  }
+
+  .boxL .cardContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
   }
 
   .viewMore {
@@ -90,19 +106,15 @@
   }
 
   .cardR {
-    width: 100%;
+    width: auto;
   }
 
   .cardContainer .card {
-    width: 340px;
+    width: auto;
   }
 
   .card img {
-    width: 94%;
-  }
-
-  .boxR a {
-    width: 40vh;
+    width: 95%;
   }
 
   .card h3 {
@@ -118,8 +130,11 @@
   }
 
   .activityBox {
-    flex-direction: column;
-    padding: 0 41px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
   }
 
   .activity h3 {
@@ -127,7 +142,7 @@
   }
 
   .activity {
-    width: 346px;
+    width: auto;
     height: 190px;
   }
 
