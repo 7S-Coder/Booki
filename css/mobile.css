@@ -181,6 +181,12 @@
   }
 }
 
+@media screen and (max-width: 391px) {
+  .card img {
+    width: 93%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   form input {
     max-width: 178px;
