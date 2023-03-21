@@ -298,14 +298,14 @@ a .activity {
   width: 237px;
 }
 
-h3,
+figcaption,
 .card p,
 .starBox,
 .infoCard p {
   padding-left: 16px;
 }
 
-h3 {
+figcaption {
   font-size: 16px;
 }
 
@@ -315,7 +315,8 @@ h3 {
 
 .starBox .blue,
 .filterSlide i,
-.container ul a {
+.container ul a,
+.stonk {
   color: #0065fc;
 }
 
@@ -346,7 +347,7 @@ h3 {
 }
 
 .cardR img {
-  width: 40%;
+  width: 144px;
   height: 134px;
 
   object-fit: cover;
@@ -422,9 +423,13 @@ h3 {
 }
 
 .stonk {
-  color: blue;
-
   float: right;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 nav .container,
