@@ -92,10 +92,6 @@ a {
   text-decoration: none;
 }
 
-.container ul a {
-  color: #0065fc;
-}
-
 form {
   display: flex;
   margin-top: 2vh;
@@ -146,8 +142,6 @@ footer,
 }
 
 .filterSlide i {
-  color: blue;
-
   margin-right: 7px;
 }
 
@@ -319,8 +313,10 @@ h3 {
   font-size: 14px;
 }
 
-.starBox .blue {
-  color: blue;
+.starBox .blue,
+.filterSlide i,
+.container ul a {
+  color: #0065fc;
 }
 
 .starBox {
