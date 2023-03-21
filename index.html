@@ -15,60 +15,57 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div class="container">
+                <img src="./assets/ImagesBooki/logo/Booki.png" alt="logo Bookin" width="61" height="19" id="logoSmall">
+                <ul>
+
+                    <li><a href="#Hebergement">Hébergement</a></li>
+
+
+                    <li><a href="#Activites">Activités</a></li>
+
+                </ul>
+            </div>
+
+            <div class="title">
+                <h1 id="Hebergement"> Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre-ville ou en pleine nature</p>
+            </div>
+            <form>
+                <div class="glass">
+                    <i class="fa-solid fa-location-dot fa-xl"></i>
+                </div>
+                <input type="search" name="Recherche" id="Recherche" value="Marseille, France">
+                <button>
+                    <span class="searchText">Rechercher</span>
+                    <i class="fa-solid fa-magnifying-glass fa-xl loop"></i>
+                </button>
+            </form>
+            <div class="filterSlide">
+                <span> Filtres</span>
+
+                <button> <i class="fa-solid fa-money-bill-wave "></i>Économique</button>
+                <button> <i class="fa-solid fa-person"></i>Famillial</button>
+                <button> <i class="fa-solid fa-heart"></i>Romantique</button>
+                <button> <i class="fa-solid fa-dog"></i>Animaux autorisés</button>
+
+
+            </div>
+        </nav>
+
+
+    </header>
     <main>
-        <header>
-            <nav>
-                <div class="container">
-                    <img src="./assets/ImagesBooki/logo/Booki.png" alt="logo Bookin" width="61" height="19"
-                        id="logoSmall">
-                    <ul>
-
-                        <li><a href="#Hebergement">Hébergement</a></li>
-
-
-                        <li><a href="#Activites">Activités</a></li>
-
-                    </ul>
-                </div>
-
-                <div class="title">
-                    <h1 id="Hebergement"> Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p>En plein centre-ville ou en pleine nature</p>
-                </div>
-                <form>
-                    <div class="glass">
-                        <i class="fa-solid fa-location-dot fa-xl"></i>
-                    </div>
-                    <input type="search" name="Recherche" id="Recherche" value="Marseille, France">
-                    <button>
-                        <span class="searchText">Rechercher</span>
-                        <i class="fa-solid fa-magnifying-glass fa-xl loop"></i>
-                    </button>
-                </form>
-                <div class="filterSlide">
-                    <span> Filtres</span>
-
-                    <button> <i class="fa-solid fa-money-bill-wave "></i>Économique</button>
-                    <button> <i class="fa-solid fa-person"></i>Famillial</button>
-                    <button> <i class="fa-solid fa-heart"></i>Romantique</button>
-                    <button> <i class="fa-solid fa-dog"></i>Animaux autorisés</button>
-
-
-                </div>
-            </nav>
-
-
-        </header>
-
-
-        <div class="info">
+        <aside class="info">
             <div class="circle"> <i class="fa-solid fa-info fa-xs"></i></div>
             <p> Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
+        </aside>
 
 
-        <div class="boxContainer">
-            <div class="boxL">
+        <section class="boxContainer">
+            <article class="boxL">
                 <h2>Hébergements à Marseille</h2>
                 <div class="cardContainer">
                     <a href="">
@@ -168,10 +165,10 @@
                 </div>
                 <div class="viewMore">Afficher plus</div>
 
-            </div>
+            </article>
 
 
-            <div class="boxR">
+            <article class="boxR">
                 <div class="titleBoxR">
                     <h2>Les plus populaires
                     </h2>
@@ -232,10 +229,10 @@
                     </a>
 
                 </div>
-            </div>
-        </div>
+            </article>
+        </section>
         <h2 class="activityTitle">Activités à Marseille</h2>
-        <div class="activityBox" id="Activites">
+        <section class="activityBox" id="Activites">
             <a href="">
                 <div class="activity">
                     <img src="./assets/ImagesBooki/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
@@ -265,31 +262,28 @@
                 </div>
             </a>
 
-        </div>
-
-        <footer>
-            <ul>
-                <li>A propos</li>
-                <li>Fonctionnement du site</li>
-                <li>Conditions générales</li>
-                <li>Données et confidentialité</li>
-            </ul>
-            <ul>
-                <li>Nos Hébergements</li>
-                <li>Charte qualité</li>
-                <li>Proposer votre hôtel</li>
-            </ul>
-            <ul>
-                <li>Assistance</li>
-                <li>Centre d'aide</li>
-                <li>Nous contacter</li>
-            </ul>
-        </footer>
-
-
-
-
+        </section>
     </main>
+
+    <footer>
+        <ul>
+            <li>A propos</li>
+            <li>Fonctionnement du site</li>
+            <li>Conditions générales</li>
+            <li>Données et confidentialité</li>
+        </ul>
+        <ul>
+            <li>Nos Hébergements</li>
+            <li>Charte qualité</li>
+            <li>Proposer votre hôtel</li>
+        </ul>
+        <ul>
+            <li>Assistance</li>
+            <li>Centre d'aide</li>
+            <li>Nous contacter</li>
+        </ul>
+    </footer>
+
     <script src="https://kit.fontawesome.com/e2b2e6f3b0.js" crossorigin="anonymous"></script>
 </body>
 

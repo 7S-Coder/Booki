@@ -3,18 +3,10 @@
   padding: 0;
 }
 
-body,
-main {
-  max-width: 1400px;
-}
-
 body {
+  max-width: 1400px;
   font-family: Raleway;
-
   background-color: white;
-}
-
-main {
   overflow-x: hidden;
 }
 
