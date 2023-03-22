@@ -52,7 +52,7 @@
   }
 
   .card img {
-    width: 91%;
+    width: 94%;
   }
 
   .infoCard .starBox {
@@ -118,6 +118,18 @@
   .activityBox,
   footer {
     padding: 0 72px;
+  }
+}
+
+@media screen and (max-width: 1167px) {
+  .card img {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .card img {
+    width: 92%;
   }
 }
 
