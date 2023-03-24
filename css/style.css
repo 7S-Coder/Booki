@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: Raleway;
+  src: url(fonts/static/Raleway-Black.ttf);
+}
+
 body {
   max-width: 1400px;
   font-family: Raleway;
