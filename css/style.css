@@ -413,6 +413,10 @@ figcaption {
   height: 445px;
 }
 
+.activity figcaption {
+  margin-top: 10px;
+}
+
 .activity img {
   width: 100%;
   height: 389px;
