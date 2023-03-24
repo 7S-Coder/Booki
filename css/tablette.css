@@ -79,7 +79,6 @@
   }
 
   .info {
-    max-width: 880px;
     margin-bottom: 30px;
   }
 
@@ -130,6 +129,12 @@
 @media screen and (max-width: 1130px) {
   .card img {
     width: 92%;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .card img {
+    width: 90%;
   }
 }
 
