@@ -55,6 +55,10 @@
     width: 94%;
   }
 
+  .cardR img {
+    width: 100px;
+  }
+
   .infoCard .starBox {
     margin-top: 115px;
   }
@@ -129,6 +133,16 @@
 @media screen and (max-width: 1130px) {
   .card img {
     width: 92%;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .boxR .cardContainer {
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .cardR img {
+    width: 100px;
   }
 }
 
